@@ -9,6 +9,7 @@ fi
 set -e
 
 export LC_ALL="en_US.UTF-8"
+export GIT_SSL_NO_VERIFY=true
 
 MHN_HOME=`dirname "$(readlink -f "$0")"`
 WWW_OWNER="www-data"

@@ -8,6 +8,8 @@ fi
 
 set -e
 
+export LC_ALL="en_US.UTF-8"
+
 MHN_HOME=`dirname "$(readlink -f "$0")"`
 WWW_OWNER="www-data"
 SCRIPTS="$MHN_HOME/scripts/"

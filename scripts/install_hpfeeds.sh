@@ -88,4 +88,5 @@ EOF
 
 ldconfig /usr/local/lib/
 /etc/init.d/supervisor restart
+sleep 5
 supervisorctl update
